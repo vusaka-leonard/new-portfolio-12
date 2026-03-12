@@ -1,0 +1,150 @@
+body{
+
+font-family: Arial;
+margin:0;
+background:#cfd1b8;
+
+}
+
+header{
+
+background:#0a2540;
+color:white;
+padding:20px;
+text-align:center;
+
+}
+h2{
+    font-size: 35px;
+    color: #f7b604;
+}
+
+h3 {
+    color:rgb(248, 5, 5);
+}
+.profile img{
+    width:160px;
+border-radius:10%;
+display:block;
+margin-left:0;
+margin-bottom:20px;
+
+}
+#home h2, p{
+    flex:1;
+text-align:left;
+
+}
+#about h2, {
+    margin-top: -30px;
+}
+.yt-button{
+background:#ff0000;
+color:white;
+padding:12px 20px;
+text-decoration:none;
+border-radius:6px;
+font-weight:bold;
+}
+
+.yt-button:hover{
+background:#cc0000;
+}
+
+nav a{
+
+color:rgb(248, 5, 5);
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+
+}
+
+nav a:hover{
+
+color:#00bcd4;
+
+}
+
+.section{
+
+padding:50px;
+text-align:center;
+
+}
+
+
+.gallery img{
+
+width:160px;
+border-radius:10%;
+display:block;
+margin-left:0;
+margin-bottom:20px;
+}
+.gallery img:hover{
+transform:scale(1.15);
+}
+.gallery{
+display:flex;
+flex-wrap:wrap;
+gap:30px;
+}
+
+.gallery img{
+width:250px;
+border-radius:8px;
+}
+
+video{
+
+margin:10px;
+
+}
+
+.button{
+
+background:#00bcd4;
+color:white;
+padding:12px 20px;
+text-decoration:none;
+border-radius:5px;
+
+}
+.download-btn{
+display: block;
+background:#0a2540;
+color:white;
+padding:12px 20px;
+text-decoration:none;
+border-radius:6px;
+font-weight:bold;
+}
+
+.download-btn:hover{
+background:#133b6b;
+}
+
+.view-btn{
+    background: red;
+    color: #fff;
+    padding:10px 20px;
+    border-radius: 10%;
+}
+.view-btn:hover{
+    background: blue;
+}
+.button:hover{
+
+background:#008c9e;
+
+}
+
+footer{
+
+background:#0a2540;
+color:white;
+text-align:center;
+padding:15px;
+
+}
